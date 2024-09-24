@@ -258,38 +258,52 @@ growing season (R1-R7) when the infection occurs.
 </section>
 
 
-<!-- Video carousel -->
+<!-- Video Carousel -->
 <section class="hero is-small">
   <div class="hero-body">
-    <div class="container" style="max-width: 800px; margin: 0 auto; text-align: center;">
-      <h2 class="title is-3">Precise farm management using deep RL policies</h2>
-      <div id="results-carousel" class="carousel results-carousel" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px;">
-        
-        <!-- First Video -->
-        <div class="item item-video1" style="width: 45%; max-width: 400px; min-width: 300px;">
-          <div style="margin: 0 auto;">
-            <video id="video1" autoplay controls muted loop style="width: 100%; height: auto; display: block;">
-              <source src="static/videos/ddqngrowth.mp4" type="video/mp4">
-            </video>
+    <div class="container">
+      <!-- Centered Title -->
+      <div class="columns is-centered">
+        <div class="column is-full">
+          <h2 class="title is-3" style="font-size: 1.5em; margin-bottom: 20px;">
+            Precise farm management using deep RL policies
+          </h2>
+          <!-- Carousel Container -->
+          <div id="results-carousel" class="carousel results-carousel">
+            <!-- Inner Container Matching Photo Section Width -->
+            <div style="width: 80%; margin: 0 auto;">
+              <!-- Video Items Wrapper -->
+              <div style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 20px;">
+                <!-- First Video Item -->
+                <div class="item item-video1" style="flex: 1 1 calc(50% - 10px);">
+                  <video id="video1" autoplay controls muted loop style="width: 100%; height: auto; display: block;">
+                    <source src="static/videos/ddqngrowth.mp4" type="video/mp4">
+                  </video>
+                  <p class="video-description" style="text-align: center; font-size: 0.9em;">
+                    DDQN Policy for Optimized Crop Management
+                  </p>
+                </div>
+                <!-- Second Video Item -->
+                <div class="item item-video2" style="flex: 1 1 calc(50% - 10px);">
+                  <video id="video2" autoplay controls muted loop style="width: 100%; height: auto; display: block;">
+                    <source src="static/videos/trpo.mp4" type="video/mp4">
+                  </video>
+                  <p class="video-description" style="text-align: center; font-size: 0.9em;">
+                    TRPO for Optimized Crop Management
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- End of Inner Container -->
           </div>
-          <p class="video-description">DDQN Policy for Optimized Crop Management</p>
+          <!-- End of Carousel Container -->
         </div>
-        
-        <!-- Second Video -->
-        <div class="item item-video2" style="width: 45%; max-width: 400px; min-width: 300px;">
-          <div style="margin: 0 auto;">
-            <video id="video2" autoplay controls muted loop style="width: 100%; height: auto; display: block;">
-              <source src="static/videos/trpo.mp4" type="video/mp4">
-            </video>
-          </div>
-          <p class="video-description">TRPO for Optimized Crop Management</p>
-        </div>
-        
       </div>
     </div>
   </div>
 </section>
-<!-- End video carousel -->
+<!-- End of Video Carousel -->
+
 
 
 
