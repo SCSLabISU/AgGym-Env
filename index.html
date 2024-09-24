@@ -258,15 +258,15 @@ growing season (R1-R7) when the infection occurs.
 </section>
 
 
-<!-- Video Section -->
+<!-- Video carousel -->
 <section class="hero is-small">
   <div class="hero-body">
     <div class="container" style="max-width: 900px; margin: 0 auto; text-align: center;">
       <h2 class="title is-3">Precise farm management using deep RL policies</h2>
-      <div style="display: flex; flex-direction: column; align-items: center; gap: 20px;">
-
+      <div id="results-carousel" class="carousel results-carousel" style="display: flex; flex-direction: column; align-items: center; gap: 20px;">
+        
         <!-- First Video -->
-        <div style="display: flex; flex-direction: column; align-items: center; width: 100%; max-width: 900px;">
+        <div class="item item-video1" style="display: flex; flex-direction: column; align-items: center; width: 100%; max-width: 900px;">
           <div style="margin: 0 auto;">
             <video id="video1" autoplay controls muted loop style="width: 100%; height: auto; display: block;">
               <source src="static/videos/ddqngrowth.mp4" type="video/mp4">
@@ -274,14 +274,22 @@ growing season (R1-R7) when the infection occurs.
           </div>
           <p style="color: black; margin-top: 10px;">DDQN Policy for Optimized Crop Management</p>
         </div>
-
+        
         <!-- Second Video -->
-        <div style="display: flex; flex-direction: column; align-items: center; width: 100%; max-width: 900px;">
+        <div class="item item-video2" style="display: flex; flex-direction: column; align-items: center; width: 100%; max-width: 900px;">
           <div style="margin: 0 auto;">
             <video id="video2" autoplay controls muted loop style="width: 100%; height: auto; display: block;">
               <source src="static/videos/trpo.mp4" type="video/mp4">
-           
-
+            </video>
+          </div>
+          <p style="color: black; margin-top: 10px;">TRPO for Optimized Crop Management</p>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End video carousel -->
 
 
 
