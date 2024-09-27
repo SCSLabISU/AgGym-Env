@@ -12,12 +12,13 @@
     /* Add these styles for circular and smaller images */
     .video-column .image img {
       width: 80%; /* Adjust this value for your desired size */
-      height: auto;
-      aspect-ratio: 1 / 1; /* This ensures the image remains square */
-      object-fit: cover; /* Ensures the image covers the square container without distortion */
-      border-radius: 50%; /* Makes the image circular */
-      border: 2px solid #ccc; /* Optional: Add a border around the image */
-      transition: transform 0.3s; /* Optional: Smooth effect */
+    height: auto;
+    aspect-ratio: 1 / 1; /* Ensures the image remains square */
+    object-fit: cover; /* Ensures the image fills the container without distortion */
+    object-position: top center; /* Adjust this to control which part of the image is visible */
+    border-radius: 50%; /* Makes the image circular */
+    border: 2px solid #ccc; /* Optional: Add a border around the image */
+    transition: transform 0.3s; /* Optional: Smooth effect */
     }
 
     .video-column .image:hover img {
