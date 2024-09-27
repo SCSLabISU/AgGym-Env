@@ -9,6 +9,18 @@
       color: #333;
       text-align: center;
     }
+    /* Add these styles for circular and smaller images */
+    .video-column .image img {
+        width: 80%; /* Adjust the size as needed */
+        height: auto;
+        border-radius: 50%; /* Makes the image circular */
+        border: 2px solid #ccc; /* Optional: Add a border around the image */
+        transition: transform 0.3s; /* Optional: Smooth effect */
+    }
+
+    .video-column .image:hover img {
+        transform: scale(1.05); /* Optional: Slightly enlarge the image on hover */
+    }
   </style>
   <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
   <!-- Replace the content tag with appropriate information -->
